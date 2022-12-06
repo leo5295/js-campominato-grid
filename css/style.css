@@ -26,10 +26,17 @@ body{
     width: calc(100%/10);
     height: calc(100%/10);
     cursor: pointer;
-    background-color: greenyellow;
+    background-color: rgb(137, 83, 204);
     outline: 1px solid;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
-.clicked{
-    background-color: darkgreen
+.even.clicked{
+    background-color: red;
+}
+
+.odd.clicked{
+    background-color: greenyellow;
 }
